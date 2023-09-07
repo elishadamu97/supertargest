@@ -871,7 +871,7 @@ blockquote {
       flex: 0 0 12%;
       max-width: 25%;
   }
-  .container {
+  .container-1 {
     width: 100%; /* Set the container to occupy 100% of the screen width in mobile view */
   }
   
@@ -880,7 +880,7 @@ blockquote {
   }
   }
   
-  .container {
+  .container-1 {
     width: 100%; /* Set the container to occupy 100% of the screen width by default */
     display: flex;
     flex-wrap: wrap;
