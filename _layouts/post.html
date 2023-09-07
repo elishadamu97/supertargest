@@ -9,10 +9,14 @@ layout: default
 			<div class="col-lg-12">
 				
 				{% if page.image %}
-				<img src="{{page.image | relative_url}}" alt="{{page.title}}" class="w-100 img-fluid mb-4">
+				<img src="{{page.image | relative_url}}" alt="{{page.title}}" class="w-100 img-fluid mb-4 hero-image" style="border: 1.5px solid black;">
 				{% endif %}
-				<div class="content">
+				<div class="content col-lg-12 border-container">
+					<div class="col-lg-12 content-container" >
+						<br>
+					<a href="{{site.baseurl}}"><span class="back-to-blog"><i class="fas fa-long-arrow-alt-left" style="margin: 4px 0px 0px 0px; color: black;"></i><h5>Back to blog</h5></span></a>
 					{{ content }}
+					</div>
 				</div>
 				{% if site.disqus-identifier %}
 				{% include disqus-comments.html %}

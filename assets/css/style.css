@@ -590,30 +590,31 @@ textarea.form-control {
 }
 
 .pagination .page-item .page-link {
-  font-family: "hanskendrick";
-  font-size: 30px;
+  font-family: "sanserif";
+  font-size: 18px;
   border: 0;
   color: #585757;
+  line-height: 21.09px;
+  font-weight: bold;
 }
 
 @media (max-width: 767px) {
   .pagination .page-item .page-link {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 .pagination .page-item .page-link:hover {
-  color: #000000;
   background-color: transparent;
 }
 
 .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .pagination .page-item.active .page-link {
-  color: #000000;
-  text-decoration: underline;
+  color: #2289EE;
+  text-decoration: none;
   background: transparent;
 }
 
@@ -898,6 +899,10 @@ blockquote {
     .column:nth-child(n+3) {
       flex: 0 0 10%; /* Reset the width of other columns to 40% in mobile view */
     }
+    .justify-content-center{
+      border-color: #000;
+      margin-left: 0% !important;
+    }
   }
   
 
@@ -928,5 +933,27 @@ blockquote {
 
 }
 
+.back-to-blog{
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
 
+.hero-image{
+  width: 940px;
+  height: 528px;
+  border-color: #000;
+  box-shadow: 4px 4px 0px black;
+  border-radius: 4px;
+  height: 30%;
+}
 
+.border-container{
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: 4px 4px 0px black;
+  left: 0;
+}
+.content-container{
+  
+}

@@ -7,6 +7,7 @@ image: "assets/images/masonary-post/post-12.jpg"
 categories: 
   - "Food"
 ---
+## Is Sales Enablement worth it?
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
