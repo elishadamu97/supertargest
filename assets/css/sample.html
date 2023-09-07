@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="column">English</div>
+    <div class="column">Privacy Policy</div>
+    <div class="column">License</div>
+    <div class="column">API</div>
+  </div>
+  
+
+  <style>
+.container {
+  width: 40%; /* Set the container to occupy 40% of the screen width */
+  display: flex;
+}
+
+.column {
+  margin: 10px;
+  padding: 20px;
+  /* Remove the border */
+  border: none;
+  /* Optionally, add a background color or other styling */
+  background-color: #f0f0f0;
+}
+
+.column:nth-child(2) {
+  flex: 2; /* Increase the width of the second column to 2 times the default width */
+}
+
+.column:not(:nth-child(2)) {
+  flex: 1; /* Reset the width of other columns to the default width */
+}
+
+  </style>
