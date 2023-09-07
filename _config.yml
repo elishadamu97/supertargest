@@ -1,11 +1,11 @@
 ---
 #-------------------------------
 # General Site Settings
-baseurl: "/supertargest" # The subpath of your site, e.g. /blog
+baseurl: "/supertargest/" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
 title: Parsa | Portfolio Jekyll Template
-logo: /assets/images/logo.png # You can add own logo
+logo: /assets/images/logo.svg # You can add own logo
 description: # Add your awesome description
 copyright: Copyright 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
 # Preloader
@@ -88,7 +88,7 @@ plugins:
   - jekyll/tagging
   - jekyll-archives
 
-paginate: 10
+paginate: 2
 paginate_path: "/page/:num"
 
 # Pages Path
